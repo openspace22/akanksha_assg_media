@@ -8,7 +8,7 @@ const HomePage = () =>{
         <div className="page-body home">
             <Header title="Interfaces"></Header>
             <div className="card-holder">
-                <Link to="/starwarsinfo">
+                <Link to="/myfavourite">
                     <div className="card">
                         <div className="icon-holder">
                             <AirplanemodeActiveIcon> </AirplanemodeActiveIcon>
