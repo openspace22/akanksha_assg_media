@@ -1,0 +1,21 @@
+.circular-progress{
+    position: relative;
+    display: inline-block;
+    circle{
+        stroke: #fdba04;
+        transform: rotate(-90deg);
+        transform-origin: 50% 50%;
+        transition: stroke-dashoffset .4s ease-out;
+    }
+    .progress-base{
+        stroke: #eee;
+        transition: none;
+    }
+    .progress-count{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 18px;
+    }
+}

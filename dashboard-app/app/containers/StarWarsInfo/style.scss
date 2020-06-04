@@ -1,0 +1,41 @@
+$theme-text-color: #333;
+
+.sw.page-body{
+    // background-color: #000000;
+    color: $theme-text-color;
+    // background-image: url("/images/sw_bg.jpg");
+    .select-arrow{
+        color: $theme-text-color;
+    }
+    .page-title{
+        color: $theme-text-color;
+        font-size: 30px;
+        margin: 0;
+        height: 70px;
+    }
+    .info-row{
+        display: flex;
+        padding: 5px;
+        .label-col{
+            width: 18%
+        }
+        .value-col{
+            width: 60%;
+        }
+    }
+    .info-title{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .data-holder{
+        .card{
+            border-radius: 6px;
+            background: #fff;
+            width: 60%;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+        }
+        
+    }
+}

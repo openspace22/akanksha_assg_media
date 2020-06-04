@@ -1,0 +1,52 @@
+.employee{
+    padding-bottom: 70px;
+    .info-holder{
+        padding: 5px 0px;
+        &:first-child,
+        &:last-child{
+            padding: 0;
+        }
+    }
+    .page-footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        right: 0;
+        background: white;
+        box-shadow: 1px 4px 5px 5px rgba(0,0,0,.14);
+    }
+    .add-icon-holder{
+        position: fixed;
+        right: 30px;
+        bottom: 80px;
+        background: #9c27b0;
+        color: #ffffff;
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        box-shadow: 0 0px 10px 4px rgba(0,0,0,0.14);
+        svg{
+            font-size: 40px;
+        }
+    }
+    .listing-card{
+        .header{
+            justify-content: space-between;
+        }
+        .more-icon{
+            cursor: pointer;
+        }
+        a{
+            color: #9c27b0;
+            text-decoration: none;
+            &:active,
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}

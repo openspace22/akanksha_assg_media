@@ -1,0 +1,19 @@
+.page-header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.125rem;
+    color: #555;
+    padding: 0 20px;
+    .profile-icon{
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+}

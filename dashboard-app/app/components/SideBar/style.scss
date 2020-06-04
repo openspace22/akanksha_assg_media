@@ -1,0 +1,35 @@
+.side-panel{
+    .icon-root{
+        color: currentColor;
+    }
+    .nav-link{
+       text-decoration: none;
+       color: inherit;
+       font-size: inherit; 
+       width: 100%;
+       display: flex;
+       align-items: center;
+       &.active{
+           color: #9c27b0;
+       }
+    }
+    .sidebar-header{
+        display: flex;
+        padding: 16px;
+        align-items: center;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, .14);
+        color: #3c4858;
+        .logo{
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            background-color: #a9afbb;
+            color: #ffffff;
+            font-size: 18px;
+            margin-right: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

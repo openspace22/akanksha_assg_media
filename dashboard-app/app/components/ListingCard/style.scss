@@ -1,0 +1,33 @@
+.listing-card{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    max-width: 100%;
+    width: 270px;
+    border-radius: 10px;
+    background: white;
+    margin: 15px;
+    color: #333;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    .header,
+    .body,
+    .footer{
+        padding: 15px;
+    }
+    .header{
+        height: 70px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #d2d2d2;
+        font-size: 20px;
+        color: #9c27b0;
+        font-weight: bold;
+    }
+    .body{
+        margin: auto 0;
+    }
+    .footer{
+        border-top: 1px solid #d2d2d2; 
+        height: 60px;
+    }
+}
